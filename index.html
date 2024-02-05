@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BisCoffee </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/coffee-logo.jpg" alt="Your Coffee Shop Logo"> <!--logo image -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Welcome to Your Coffee Shop</h2>
+    <p>Discover the finest coffee experience.</p>
+</section>
+
+<h2 class="menu-heading">Our Menu</h2>
+
+<section id="menu">
+  
+  <div class="menu-item">
+      <img src="images/espresso1.avif" alt="Coffee 1">
+      <h3>Espresso</h3>
+      <p>Strong black coffee made by forcing hot water through finely-ground coffee beans.</p>
+  </div>
+
+  <div class="menu-item">
+      <img src="images/cappucino.jpg" alt="Coffee 2">
+      <h3>Cappuccino</h3>
+      <p>Espresso mixed with steamed milk and topped with a layer of frothed milk.</p>
+  </div>
+
+  <div class="menu-item">
+      <img src="images/latte.avif" alt="Coffee 3">
+      <h3>Latte</h3>
+      <p>Espresso mixed with a large amount of steamed milk, often topped with a small amount of foam.</p>
+  </div>
+
+  <div class="menu-item">
+    <img src="images/Americano.jpeg" alt="Americano">
+    <h3>Americano</h3>
+    <p>Espresso with added hot water, resulting in a coffee with a similar strength to, but different flavor from, drip coffee.</p>
+</div>
+
+<div class="menu-item">
+    <img src="images/mocha.webp" alt="Mocha">
+    <h3>Mocha</h3>
+    <p>Espresso with steamed milk and chocolate, often topped with whipped cream.</p>
+</div>
+
+<div class="menu-item">
+  <img src="images/macchiato.jpg" alt="Macchiato">
+  <h3>Macchiato</h3>
+  <p>Espresso with a small amount of milk, usually foamed milk.</p>
+</div>
+  
+
+</section>
+
+<h2 class="about-heading">About Us</h2>
+<section id="about">
+  
+  <div class="about-content">
+      
+      <p>Welcome to BisCoffee, where passion meets perfection. Our journey began with a simple goal to provide the finest coffee experience to our customers. With a commitment to quality, we source the best coffee beans from around the world, ensuring a rich and flavorful cup in every sip.</p>
+      <p>At BisCoffee, we believe in creating a warm and inviting atmosphere. Whether you're seeking a quiet space to work, catching up with friends, or simply enjoying a moment of solitude, our coffee shop is the perfect place for you.</p>
+      <p>Our friendly and skilled baristas are dedicated to crafting the perfect cup of coffee tailored to your preferences. From the first sip to the last, we strive to make every visit memorable. Join us on this coffee journey and experience the taste of excellence at BisCoffee.</p>
+  </div>
+</section>
+
+<h2 class="contact-heading">Contact Us</h2>
+
+<section id="contact">
+  
+  <div class="contact-content">
+      <p>Visit us at:</p><br>
+      <address>
+          BisCoffee<br>
+          Chulliyode<br>
+          Sulthan Bathery, Wayanad<br>
+          673592
+      </address>
+      <p>For inquiries, please contact us at:</p>
+      <p>Email: info@biscoffee.com</p>
+      <p>Phone: 9778307665</p>
+
+      <!-- Contact Form -->
+      <form action="process_form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Submit</button>
+      </form>
+  </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Coffee Shop</p>
+</footer>
+</body>
+</html>
